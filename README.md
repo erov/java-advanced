@@ -124,13 +124,13 @@
 3. Тестирование
      * простой вариант (`StudentQuery`):
         [интерфейс](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQuery.java),
-        [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQueryTest.java)
+        [тесты](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/StudentQueryTest.java)
      * сложный вариант (`GroupQuery`):
         [интерфейс](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/GroupQuery.java),
-        [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/GroupQueryTest.java)
+        [тесты](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/GroupQueryTest.java)
      * продвинутый вариант (`AdvancedQuery`):
         [интерфейс](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedQuery.java),
-        [тесты](modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedQueryTest.java)
+        [тесты](test-repo/modules/info.kgeorgiy.java.advanced.student/info/kgeorgiy/java/advanced/student/AdvancedQueryTest.java)
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.student](test-repo/artifacts/info.kgeorgiy.java.advanced.student.jar)
 
@@ -159,7 +159,9 @@
 
 ## ДЗ-5. Jar и Javadoc
 > Реализация: [info.kgeorgiy.ja.erov.implementor](/java-solutions/info/kgeorgiy/ja/erov/implementor)
+> 
 > Jar: [scripts/implementor-jar.sh](scripts/implementor-jar.sh)
+> 
 > Javadoc: [scripts/implementor-javadoc.sh](scripts/implementor-javadoc.sh)
 
 1. Jar
