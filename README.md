@@ -2,7 +2,7 @@
 Реализации заданий курса [java-advanced](https://www.kgeorgiy.info/courses/java-advanced/homeworks.html) и тестирующие модули к ним.
 Для каждого задания реализован сложный и продвинутый варианты.
 
-## ДЗ-1. Обход файлов
+## walk
 > Реализация: [info.kgeorgiy.ja.erov.walk](/java-solutions/info/kgeorgiy/ja/erov/walk)
 
 1. Разработайте класс _Walk_, осуществляющий подсчет хеш-сумм файлов.
@@ -93,7 +93,7 @@
         * Пример для простого варианта ДЗ-1:
             `java -cp . -p . -m info.kgeorgiy.java.advanced.walk Walk <полное имя класса>`
 
-## ДЗ-2. Множество на массиве
+## arrayset
 > Реализация: [info.kgeorgiy.ja.erov.arrayset](/java-solutions/info/kgeorgiy/ja/erov/arrayset)
 
 1. Разработайте класс _ArraySet_, реализующий неизменяемое упорядоченное множество.
@@ -112,7 +112,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.arrayset](test-repo/artifacts/info.kgeorgiy.java.advanced.arrayset.jar)
 
-## ДЗ-3. Студенты
+## student
 > Реализация: [info.kgeorgiy.ja.erov.student](/java-solutions/info/kgeorgiy/ja/erov/student)
 
 1. Разработайте класс _StudentDB_, осуществляющий поиск по базе данных студентов.
@@ -134,7 +134,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.student](test-repo/artifacts/info.kgeorgiy.java.advanced.student.jar)
 
-## ДЗ-4. Implementor
+## implemenor
 > Реализация: [info.kgeorgiy.ja.erov.implementor](/java-solutions/info/kgeorgiy/ja/erov/implementor)
 
 1. Реализуйте класс _Implementor_, генерирующий реализации классов и интерфейсов.
@@ -157,7 +157,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.implementor](test-repo/artifacts/info.kgeorgiy.java.advanced.implementor.jar)
 
-## ДЗ-5. Jar и Javadoc
+## jar-javadoc
 > Реализация: [info.kgeorgiy.ja.erov.implementor](/java-solutions/info/kgeorgiy/ja/erov/implementor)
 > 
 > Jar: [scripts/implementor-jar.sh](scripts/implementor-jar.sh)
@@ -195,7 +195,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.implementor](test-repo/artifacts/info.kgeorgiy.java.advanced.implementor.jar)
 
-## ДЗ-6. Итеративный параллелизм
+## parallelism
 > Реализация: [info.kgeorgiy.ja.erov.concurrent.IterativeParallelism](/java-solutions/info/kgeorgiy/ja/erov/concurrent/IterativeParallelism.java)
 
 1. Реализуйте класс _IterativeParallelism_, который будет обрабатывать списки в несколько потоков.
@@ -231,7 +231,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.concurrent](test-repo/artifacts/info.kgeorgiy.java.advanced.concurrent.jar)
 
-## ДЗ-7. Параллельный запуск
+## mapper
 > Реализация: [info.kgeorgiy.ja.erov.concurrent.ParallelMapperImpl](/java-solutions/info/kgeorgiy/ja/erov/concurrent/ParallelMapperImpl.java)
 
 1. Напишите класс _ParallelMapperImpl_, реализующий интерфейс ParallelMapper.
@@ -267,7 +267,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.mapper](test-repo/artifacts/info.kgeorgiy.java.advanced.mapper.jar)
 
-## ДЗ-8. Web Crawler
+## crawler
 > Реализация: [info.kgeorgiy.ja.erov.crawler](/java-solutions/info/kgeorgiy/ja/erov/crawler)
 
 1. Напишите потокобезопасный класс _WebCrawler_, который будет рекурсивно обходить сайты.
@@ -334,7 +334,7 @@
     
     Тестовый модуль: [info.kgeorgiy.java.advanced.crawler](test-repo/artifacts/info.kgeorgiy.java.advanced.crawler.jar)
 
-## ДЗ-9. HelloUDP
+## hello
 > Реализация: [info.kgeorgiy.ja.erov.hello](/java-solutions/info/kgeorgiy/ja/erov/hello)
 
 1. Реализуйте клиент и сервер, взаимодействующие по UDP.
